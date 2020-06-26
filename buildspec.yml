@@ -5,11 +5,13 @@ phases:
     runtime-versions:
       nodejs: 12.x
     commands:
+      - ls
       - npm i npm@latest -g
       - npm install yarn -g
   pre_build:
     commands:
       - yarn install
+      - ls
 
 artifacts:
   files:
