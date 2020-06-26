@@ -1,3 +1,3 @@
 const axios = require('axios');
 
-console.log('Hello world');
+console.log('Hello world!');
