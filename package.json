@@ -9,6 +9,6 @@
     "axios": "^0.19.2"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "npm install && node index.js"
   }
 }
