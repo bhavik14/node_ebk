@@ -6,9 +6,10 @@
   "author": "Bhavik <bhavik.vagadia@jeavio.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
   },
   "scripts": {
-    "start": "npm install && node index.js"
+    "start": "echo 'Starting node server...' && node index.js"
   }
 }
