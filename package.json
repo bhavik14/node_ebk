@@ -1,0 +1,11 @@
+{
+  "name": "node_ebk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bhavik14/node_ebk.git",
+  "author": "Bhavik <bhavik.vagadia@jeavio.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
