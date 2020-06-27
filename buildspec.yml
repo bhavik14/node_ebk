@@ -19,4 +19,4 @@ artifacts:
     - .gitignore
     - package.json
     - yarn.lock
-    - node_modules/**/*
+    #- node_modules/**/*
