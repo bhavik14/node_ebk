@@ -15,4 +15,8 @@ phases:
 
 artifacts:
   files:
-    - '**/*'
+    - 'index.js',
+    - '.gitignore',
+    - 'package.json',
+    - 'yarn.lock',
+    - 'node_modules/**/*'
