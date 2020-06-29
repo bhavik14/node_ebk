@@ -11,14 +11,17 @@ phases:
   pre_build:
     commands:
    #   - yarn install
+      - git clone https://bhavik14:%23Test2020%24@github.com/bhavik14/node_ebk.git
+      - last_commit = $(git --git-dir=node_ebk/.git log -1 --pretty=%B)
+      - echo $last_commit
       - ls -la
-      - git log
 
 artifacts:
   files:
-    #- index.js
-    #- .gitignore
-    #- package.json
-    #- yarn.lock
-    #- node_modules/**/*
-    /**/*
+    - index.js
+    - .gitignore
+    - package.json
+    - yarn.lock
+    - node_modules/**/*
+    #/**/*
+  name: test_v
